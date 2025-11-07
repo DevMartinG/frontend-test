@@ -1,0 +1,26 @@
+Ejercicio 1
+Sin responder aún
+Se puntúa como 0 sobre 1,00
+Marcar pregunta
+Enunciado de la pregunta
+Para este ejercicio usar React o Angular.
+===========================================
+
+Crear 2 input que permita ingresar solo numeros enteros
+debajo de estos inputs poner un boton 'suma los números'
+al hacer click en el boton se deben sumar los números
+'Resultado es: (poner la suma)'
+
+Si no se ingreso alguno o ambos numeros poner un mensaje
+'Ingrese ambos números'
+
+Ejemplo 1:
+primer text input tiene el contenido '234'
+segundo text input tiene el contenido '338'
+le doy click al boton 'sumar los numeros'
+'Resultado es 572'
+
+Ejemplo 2:
+primer text input tiene el contenido vacio
+le doy click al botón 'sumar los números'
+'Ingrese ambos números'

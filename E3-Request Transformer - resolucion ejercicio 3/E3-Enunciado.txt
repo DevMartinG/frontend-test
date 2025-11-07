@@ -1,0 +1,42 @@
+Ejercicio 3
+
+Para este ejercicio usar javascript
+====================================
+
+Se tiene los siguientes datos
+
+- Request: que tiene lo siguiente forma
+{
+client // es un objeto
+stageId // es un string
+version // es un number
+}
+
+- client es un objecto con muchos datos el mas importante es el nombre
+{
+nombre: string
+...aqui pueden ir otros campos
+}
+
+- stages: es un arreglo de stage. Cada Stage tiene:
+Val: el identificador del stage
+Desc: el nombre del stage.
+
+- colorMapStage es un objecto con idStage y un color, ejemplo
+{
+‘stage1’: #CC0000
+‘stage2’: #6DBC64
+‘stage3’: #51B3BD
+}
+
+se solicita crear una funcion que dado un grupo de solicitudes devuelva un arreglo de objetos
+que tenga como elementos los siguiente
+{
+client: //nombre del cliente
+stage: //nombre del stage
+color: //color del stage
+}
+
+function transform(requestList, stages, colorMapStage){
+// llenar el codigo
+}

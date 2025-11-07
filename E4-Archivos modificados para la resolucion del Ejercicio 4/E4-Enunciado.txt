@@ -1,0 +1,31 @@
+Ejercicio 4
+
+Optimizar el codigo
+=================================
+
+En el codigo mostrado se simula llamados a un servicio externo "randomNumber"
+que obtiene 100 numeros aleatorios que luego se imprimen actualmente el llamado para obtener estos datos demora mucho.
+Optimizar estos llamados para que no se demore tanto obtener los numeros aleatorios
+Link de ejercicio: https://codesandbox.io/s/infallible-glitter-sdpsvs
+Código:
+
+
+class Api {
+static get(url, data) {
+return new Promise((resolve, reject) => {
+setTimeout(() => {
+resolve(Math.floor(Math.random() * 10));
+}, 100);
+});
+}
+}
+
+async function getDataAndPrint() {
+const oneHundredRandoms = [];
+for (let i = 0; i < 100; i++) {
+const data = await Api.get("randomNumber");
+oneHundredRandoms.push(data);
+}
+console.log(oneHundredRandoms);
+}
+getDataAndPrint();

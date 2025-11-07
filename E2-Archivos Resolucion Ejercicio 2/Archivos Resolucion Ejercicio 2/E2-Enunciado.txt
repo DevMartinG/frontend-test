@@ -1,0 +1,12 @@
+Ejercicio 2
+
+Para este ejercicio usar en css con html, NO utilizar javascript
+===============================================================
+
+Realizar el diseño que se muestra en el video 2-burbujas.mkv
+Los colores de fondo de las burbujas son:
+#ffedb6
+#e6e7fd
+#ffedb6
+
+La burbuja tiene que ponerse delante de las otras solo con pasar el mouse por encima de ella
