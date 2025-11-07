@@ -1,0 +1,48 @@
+   body {
+    margin: 40px;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+  }
+  
+  .firma {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .contenedor {
+    position: relative;
+    width: 260px;
+    height: 65px;
+  }
+  
+  .burbuja {
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    font-size: 16px;
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, z-index 0s;
+  }
+  
+  .amarilla {
+    background-color: #ffedb6;
+  }
+  
+  .azul {
+    background-color: #e6e7fd;
+  }
+  .burbuja:nth-child(1) { left: 0; z-index: 1; }
+  .burbuja:nth-child(2) { left: 40px; z-index: 2; }
+  .burbuja:nth-child(3) { left: 80px; z-index: 3; }
+  
+  .burbuja:hover {
+    z-index: 99;
+  }
+  
